@@ -1,0 +1,1 @@
+setInterval(function() {console.log("Hello every minute"); }, 60 * 1000);

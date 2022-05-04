@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.columnSelection {
+    padding: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+label, input {
+    font-family:Helvetica, Arial, sans-serif;
+    width:150px;
+    height:15px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+button {
+    margin: 0 5px;
+    font-family:Helvetica, Arial, sans-serif;
+    width:200px;
+    height:22px;
+    display: block;
+    text-align: center;
+}
+.column-container {
+    column-count: 1;
+    orphans: 3;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px;
+}
+.column-container p {
+    font-family:Helvetica, Arial, sans-serif;
+    margin: 10px 0;
+}
+  
